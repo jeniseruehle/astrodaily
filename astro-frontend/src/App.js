@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import TransitsContainer from './containers/TransitsContainer';
-import Home from './components/homepage';
+import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import JournalContainer from './containers/JournalContainer';
 import PlanetContainer from './containers/PlanetContainer';
