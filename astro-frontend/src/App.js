@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import TransitsContainer from './containers/TransitsContainer';
+import Home from './components/homepage';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import JournalContainer from './containers/JournalContainer';
+import PlanetContainer from './containers/PlanetContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route exact path="/transits"><TransitsContainer /></Route>
+          <Route exact path="/transits/new"><JournalContainer /></Route>
+          <Route exact path="/transits/planets"><PlanetContainer /></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
