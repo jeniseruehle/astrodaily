@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { fetchTransits } from "../actions/transitActions";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import NavBar from "../components/NavBar";
 
 class TransitsContainer extends Component {
@@ -30,13 +31,13 @@ class TransitsContainer extends Component {
     render() {
         return (
             <div>
-                <NavBar /><br />
-                <h2>Your Transits</h2>
-                <Container fluid="md">
-                    <Row>
-                        {this.renderTransitCards()}
-                    </Row>
-                </Container>
+            <NavBar /><br />
+            <h2>Your Transits</h2>
+            <Container>
+                <Row>
+                {this.renderTransitCards()}
+                </Row>
+            </Container>
             </div>
         )
     }

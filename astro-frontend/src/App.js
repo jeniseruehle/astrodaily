@@ -5,6 +5,7 @@ import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import JournalContainer from './containers/JournalContainer';
 import PlanetContainer from './containers/PlanetContainer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

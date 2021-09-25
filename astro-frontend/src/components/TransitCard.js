@@ -2,7 +2,9 @@ import Card from 'react-bootstrap/Card'
 
 const TransitCard = (props) => {
    return (
-    <Card classname="transit-card" border="dark" style={{width: '18rem'}}>
+
+    <div>
+    <Card classname="transit-card" border="dark">
         <Card.Body>
             <Card.Title><i>{props.title}</i></Card.Title>
             <Card.Text>
@@ -15,6 +17,8 @@ const TransitCard = (props) => {
             </Card.Text>
         </Card.Body>
     </Card>
+    <br></br>
+    </div>
    )
 }
 

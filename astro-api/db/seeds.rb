@@ -7,6 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # :title :event :sign :focus :mood :journal :date
-
-Transit.create(title: "Emotional Balance", event: "Full Moon", sign: "Pisces", focus: "6H - Daily Routines", mood: "Overwhelmed", journal: "This full moon was conjunct my natal moon, really heigtening my emotions..", date: "09/19/2021")
-Transit.create(title: "Me, in Review", event: "Mercury Rx", sign: "Libra", focus: "1H - Self/Identity", mood: "Excited", journal: "Time to re-examine, reinvent, and revive myself!", date: "09/27/2021")
+Transit.create(title: "Emotional Balance", event: "Full Moon", sign: "Pisces", focus: "6H - Daily Routines", mood: "Overwhelmed", journal: "This full moon was conjunct my natal moon, really heigtening my emotions..", date: "19/09/2021")
+Transit.create(title: "Me, in Review", event: "Mercury Rx", sign: "Libra", focus: "1H - Self/Identity", mood: "Excited", journal: "Time to re-examine, reinvent, and revive myself!", date: "27/09/2021")
+Transit.create(title: "Test", event: "New Moon", sign: "Virgo", focus: "12H - Subconscious", mood: "Tired", journal: "Testing!", date: "10/11/2021")
