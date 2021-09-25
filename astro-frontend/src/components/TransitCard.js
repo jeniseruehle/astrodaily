@@ -4,7 +4,7 @@ const TransitCard = (props) => {
    return (
 
     <div>
-    <Card classname="transit-card" border="dark">
+    <Card classname="transit-card" border="dark" style={{width: "18rem"}}>
         <Card.Body>
             <Card.Title><i>{props.title}</i></Card.Title>
             <Card.Text>

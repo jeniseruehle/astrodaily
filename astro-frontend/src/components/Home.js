@@ -1,4 +1,4 @@
-import { Jumbotron } from "react-bootstrap";
+import Jumbotron from "reactstrap/lib/Jumbotron";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
