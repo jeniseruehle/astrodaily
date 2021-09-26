@@ -25,8 +25,8 @@ export const createTransit = (transit) => {
         
         fetch(URL, configObj)
          .then(resp => resp.json())
-         .then(json => {
-             console.log(json)
+         .then(transit => {
+             dispatch({type: 'ADD_TRANSIT', payload: transit})
          })
     }
 }

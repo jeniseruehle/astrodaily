@@ -8,7 +8,6 @@ class NewJournal extends Component {
     state = {
         title: "",
         event: "",
-        // sign: "",
         focus: "",
         mood: "",
         journal: "",
@@ -29,7 +28,6 @@ class NewJournal extends Component {
         this.setState({
             title: "",
             event: "",
-            // sign: "",
             focus: "",
             mood: "",
             journal: "",

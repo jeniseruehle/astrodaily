@@ -10,7 +10,6 @@ const TransitCard = (props) => {
             <Card.Text>
                 <b>Date:</b> {props.date}<br/>
                 <b>Transit Event:</b> {props.event}<br/>
-                {/* <b>Sign:</b> {props.sign}<br/> */}
                 <b>Focus:</b> {props.focus}<br/>
                 <b>Mood:</b> {props.mood}<br/>
                 <b>Journal:</b> {props.journal}<br/>
