@@ -17,6 +17,6 @@ class TransitsController < ApplicationController
     private
 
     def transit_params
-        params.require(:transit).permit(:title, :event, :sign, :focus, :mood, :journal, :date)
+        params.require(:transit).permit(:title, :event, :focus, :mood, :journal, :date)
     end
 end

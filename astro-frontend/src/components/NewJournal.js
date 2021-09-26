@@ -8,7 +8,7 @@ class NewJournal extends Component {
     state = {
         title: "",
         event: "",
-        sign: "",
+        // sign: "",
         focus: "",
         mood: "",
         journal: "",
@@ -29,7 +29,7 @@ class NewJournal extends Component {
         this.setState({
             title: "",
             event: "",
-            sign: "",
+            // sign: "",
             focus: "",
             mood: "",
             journal: "",
@@ -51,15 +51,15 @@ class NewJournal extends Component {
                 </Form.Group>
 
                 <Form.Group>  
-                <Form.Label className="label">Event:</Form.Label>
+                <Form.Label className="label">Transit Event:</Form.Label>
                 <Form.Control type="text" name="event" placeholder="Enter planetary event" onChange={this.handleChange} value={this.state.event}/>
                 </Form.Group>
 
-                <Form.Group>
+                {/* <Form.Group>
                 <Form.Label className="label">Sign:</Form.Label> &nbsp;    
                 <Form.Control type="text" name="sign" placeholder="Enter planetary event's sign" onChange={this.handleChange} value={this.state.sign}/>  
                 <Form.Text className="text-muted">*Put Link to Key Here*</Form.Text>
-                </Form.Group>
+                </Form.Group> */}
 
                 <Form.Group>
                 <Form.Label className="label">Focus:</Form.Label> &nbsp;

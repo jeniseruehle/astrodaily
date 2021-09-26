@@ -19,7 +19,7 @@ class TransitsContainer extends Component {
             id={transit.id}
             title={transit.title}
             event={transit.event}
-            sign={transit.sign}
+            // sign={transit.sign}
             focus={transit.focus}
             mood={transit.mood}
             journal={transit.journal}
