@@ -4,7 +4,7 @@ const MoonTransits = () => {
     return (
         <div className="table">
             <h2>Moon 🌙 </h2>
-            <Table striped bordered hover size="sm">
+            <Table striped bordered hover size="sm" variant="dark">
                 <thead>
                     <tr>
                         <th>Transit</th>
