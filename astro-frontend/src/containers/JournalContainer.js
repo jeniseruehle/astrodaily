@@ -7,7 +7,7 @@ class JournalContainer extends Component {
         return (
             <div className="form-container">
             <NavBar /><br/>
-            <h2>New Transit Journal</h2>
+            <h2>New Transit Journal</h2><br/>
             <NewJournal />
             </div>
         )

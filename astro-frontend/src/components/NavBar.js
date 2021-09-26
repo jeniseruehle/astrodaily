@@ -8,25 +8,25 @@ const NavBar = () => {
           
             <Nav.Item>
                 <Nav.Link as={Link} to="/">
-                    <Button variant="outline-dark">Home</Button>
+                    <Button variant="outline-light">Home</Button>
                 </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
                 <Nav.Link as={Link} to="/transits">
-                    <Button variant="outline-dark">Your Transits</Button>
+                    <Button variant="outline-light">Your Transits</Button>
                 </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
                 <Nav.Link as={Link} to="/transits/new">
-                    <Button variant="outline-dark">Transit Journal</Button>
+                    <Button variant="outline-light">Transit Journal</Button>
                 </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
                 <Nav.Link as={Link} to="/transits/planets">
-                    <Button variant="outline-dark">Upcoming Transits</Button>
+                    <Button variant="outline-light">Upcoming Transits</Button>
                 </Nav.Link>
             </Nav.Item>
 
