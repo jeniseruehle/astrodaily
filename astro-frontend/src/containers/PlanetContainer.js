@@ -10,7 +10,7 @@ class PlanetContainer extends Component {
         return (
             <div className="planet-container">
                 <NavBar /><br />
-                <h2>Upcoming Transits!</h2><br />
+                <h1><b>2021 Transit Events</b></h1><br />
                 <SunTransits /><br />
                 <MoonTransits /><br />
                 <MercuryTransits /><br />
