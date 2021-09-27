@@ -20,6 +20,18 @@ const MercuryTransits = () => {
                         <td>Mercury Direct in Libra</td>
                         <td>October 18th</td>
                     </tr>
+                    <tr>
+                        <td>Mercury in Scorpio</td>
+                        <td>November 6th</td>
+                    </tr>
+                    <tr>
+                        <td>Mercury in Sagittarius</td>
+                        <td>November 25th</td>
+                    </tr>
+                    <tr>
+                        <td>Mercury in Capricorn</td>
+                        <td>December 14th</td>
+                    </tr>
                 </tbody>
                 </Table>
         </div>

@@ -28,6 +28,18 @@ const MoonTransits = () => {
                         <td>New Moon in Scorpio</td>
                         <td>November 4th</td>
                     </tr>
+                    <tr>
+                        <td>Full Moon in Taurus</td>
+                        <td>November 19th</td>
+                    </tr>
+                    <tr>
+                        <td>New Moon in Sagittarius</td>
+                        <td>December 4th</td>
+                    </tr>
+                    <tr>
+                        <td>Full Moon in Gemini</td>
+                        <td>December 18th</td>
+                    </tr>
                 </tbody>
                 </Table>
         </div>
