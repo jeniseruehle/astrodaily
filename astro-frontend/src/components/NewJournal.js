@@ -35,6 +35,7 @@ class NewJournal extends Component {
             date: "",
         });
         this.props.history.push('/transits');
+        window.location.reload();
     }
 
     render() {
