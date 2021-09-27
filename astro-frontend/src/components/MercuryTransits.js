@@ -17,7 +17,7 @@ const MercuryTransits = () => {
                         <td>September 27th</td>
                     </tr>
                     <tr>
-                        <td>Mercury Direct in Virgo</td>
+                        <td>Mercury Direct in Libra</td>
                         <td>October 18th</td>
                     </tr>
                 </tbody>

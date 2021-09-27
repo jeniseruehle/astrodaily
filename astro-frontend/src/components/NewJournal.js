@@ -2,7 +2,7 @@ import { Component } from "react";
 import Form from "react-bootstrap/Form";
 import { createTransit } from "../actions/transitActions"
 import { connect } from "react-redux";
-import { Redirect } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class NewJournal extends Component {
     state = {
@@ -23,6 +23,7 @@ class NewJournal extends Component {
     }
 
     handleSubmit = (event) => {
+        alert('Success! ✨');
         event.preventDefault();
         this.props.createTransit(this.state)
         this.setState({
@@ -32,7 +33,8 @@ class NewJournal extends Component {
             mood: "",
             journal: "",
             date: "",
-        })
+        });
+        this.props.history.push('/transits');
     }
 
     render() {
@@ -52,12 +54,6 @@ class NewJournal extends Component {
                 <Form.Label className="label">Transit Event:</Form.Label>
                 <Form.Control type="text" name="event" placeholder="Enter planetary event" onChange={this.handleChange} value={this.state.event}/>
                 </Form.Group>
-
-                {/* <Form.Group>
-                <Form.Label className="label">Sign:</Form.Label> &nbsp;    
-                <Form.Control type="text" name="sign" placeholder="Enter planetary event's sign" onChange={this.handleChange} value={this.state.sign}/>  
-                <Form.Text className="text-muted">*Put Link to Key Here*</Form.Text>
-                </Form.Group> */}
 
                 <Form.Group>
                 <Form.Label className="label">Focus:</Form.Label> &nbsp;
@@ -82,4 +78,4 @@ class NewJournal extends Component {
     }
 }
 
-export default connect(null, {createTransit})(NewJournal);
+export default connect(null, {createTransit})(withRouter(NewJournal));
