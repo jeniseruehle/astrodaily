@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 const MoonTransits = () => {
     return (
         <div className="table">
-            <h2>Moon 🌙 </h2>
+            <h3>Moon 🌙 </h3>
             <Table striped bordered hover size="sm" variant="dark">
                 <thead>
                     <tr>

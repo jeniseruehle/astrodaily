@@ -52,7 +52,7 @@ class NewJournal extends Component {
                 </Form.Group>
 
                 <Form.Group>  
-                <Form.Label className="label">Transit Event:</Form.Label>
+                <Form.Label className="label">Transit:</Form.Label>
                 <Form.Control type="text" name="event" placeholder="Enter planetary event" onChange={this.handleChange} value={this.state.event}/>
                 </Form.Group>
 

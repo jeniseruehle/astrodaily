@@ -19,14 +19,20 @@ const NavBar = () => {
             </Nav.Item>
 
             <Nav.Item>
-                <Nav.Link as={Link} to="/transits/new">
-                    <Button variant="outline-light">Transit Journal</Button>
+                <Nav.Link as={Link} to="/transits/planets">
+                    <Button variant="outline-light">Upcoming Transits</Button>
                 </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-                <Nav.Link as={Link} to="/transits/planets">
-                    <Button variant="outline-light">Upcoming Transits</Button>
+                <Nav.Link as={Link} to="/transits/new">
+                    <Button variant="outline-light">Journal</Button>
+                </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+                <Nav.Link as={Link} to="/transits/key">
+                    <Button variant="outline-light">Key</Button>
                 </Nav.Link>
             </Nav.Item>
 

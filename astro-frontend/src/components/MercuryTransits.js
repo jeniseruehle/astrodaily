@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 const MercuryTransits = () => {
     return (
         <div className="table">
-            <h2>Mercury ☿️</h2>
+            <h3>Mercury ☿️</h3>
             <Table striped bordered hover size="sm" variant="dark">
                 <thead>
                     <tr>
