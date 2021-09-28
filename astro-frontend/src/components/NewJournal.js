@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import { createTransit } from "../actions/transitActions"
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class NewJournal extends Component {
     state = {
@@ -52,14 +53,13 @@ class NewJournal extends Component {
                 </Form.Group>
 
                 <Form.Group>  
-                <Form.Label className="label">Transit:</Form.Label>
+                <Form.Label className="label">Transit (see <Link to="/transits/planets" style={{color: '#FFF', textDecoration: 'underline'}}>Upcoming</Link>):</Form.Label>
                 <Form.Control type="text" name="event" placeholder="Enter planetary event" onChange={this.handleChange} value={this.state.event}/>
                 </Form.Group>
 
                 <Form.Group>
-                <Form.Label className="label">Focus:</Form.Label> &nbsp;
-                <Form.Control type="text" name="focus" placeholder="Enter house where planetary event is happening" onChange={this.handleChange} value={this.state.focus}/>  
-                <Form.Text className="text-muted">*Link or Key*</Form.Text>
+                <Form.Label className="label">Focus (see <Link to="/transits/key" style={{color: '#FFF', textDecoration: 'underline'}}>Key</Link>):</Form.Label> &nbsp;
+                <Form.Control type="text" name="focus" placeholder="Enter house where planetary event is happening" onChange={this.handleChange} value={this.state.focus}/>
                 </Form.Group>
 
                 <Form.Group>

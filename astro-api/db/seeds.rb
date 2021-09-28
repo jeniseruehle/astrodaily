@@ -7,6 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # :title :event :sign :focus :mood :journal :date
-Transit.create(title: "Emotional Balance", event: "Full Moon in Pisces", focus: "6H - Daily Routines", mood: "Overwhelmed", journal: "This full moon was conjunct my natal moon, really heigtening my emotions..", date: "19/09/2021")
-Transit.create(title: "Me, in Review", event: "Mercury Rx in Libra", focus: "1H - Self/Identity", mood: "Excited", journal: "Time to re-examine, reinvent, and revive myself!", date: "27/09/2021")
-Transit.create(title: "Test", event: "New Moon in Virgo", focus: "12H - Subconscious", mood: "Tired", journal: "Testing!", date: "10/11/2021")
+Transit.create(title: "Emotional Balance", event: "Full Moon in Pisces", focus: "6H Daily Routines", mood: "Tired", journal: "Transit is conjunct my natal moon, focus on emotional balance.", date: "19/09/2021")
+Transit.create(title: "Me, in Review", event: "Mercury Rx in Libra", focus: "1H Self & Identity", mood: "Hopeful", journal: "Time to re-examine, reinvent, and revive.", date: "27/09/2021")
+Transit.create(title: "Time to Focus", event: "Sun in Libra", focus: "12H/1H Subconscious/Self", mood: "Reflective", journal: "This month's focus is on self-care & mental health.", date: "22/09/2021")
