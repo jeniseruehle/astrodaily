@@ -7,7 +7,7 @@ class KeyContainer extends Component {
         return (
             <div className="transit-key">
             <NavBar /><br />
-            <h2>Focus Areas (Houses)</h2><br/>
+            <h2>Focus Areas + Zodiac Signs</h2><br/>
             <TransitKey />
             </div>
         )

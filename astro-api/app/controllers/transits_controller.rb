@@ -1,7 +1,7 @@
 class TransitsController < ApplicationController
     
     def index
-        transits = Transit.all
+        transits = Transit.all.order_by_date
         render json: transits.to_json(except: [:created_at, :updated_at])
     end
 
